@@ -13,4 +13,12 @@ public class RunSelenide {
 
 
     }
+
+    @Test
+    public void openUrlNumberTwo() throws InterruptedException {
+        open("https://www.google.com/");
+        $(By.xpath(".//a[text() = 'Почта']")).click();
+
+
+    }
 }
