@@ -1,0 +1,199 @@
+[1595198929,989][INFO]: Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 29443
+[1595198929,989][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1595198930,424][INFO]: [a22fee1f3e4973158c6c559a7b0f8540] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "acceptInsecureCerts": true,
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+            "excludeSwitches": [ "enable-automation", "load-extension" ],
+            "extensions": [  ],
+            "prefs": {
+               "credentials_enable_service": false,
+               "download.default_directory": "/home/igor/IdeaProjects/StasAllureProject/build/downloads",
+               "plugins.always_open_pdf_externally": true
+            }
+         },
+         "pageLoadStrategy": "normal"
+      } ]
+   },
+   "desiredCapabilities": {
+      "acceptInsecureCerts": true,
+      "acceptSslCerts": true,
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [ "--proxy-bypass-list=\u003C-loopback>" ],
+         "excludeSwitches": [ "enable-automation", "load-extension" ],
+         "extensions": [  ],
+         "prefs": {
+            "credentials_enable_service": false,
+            "download.default_directory": "/home/igor/IdeaProjects/StasAllureProject/build/downloads",
+            "plugins.always_open_pdf_externally": true
+         }
+      },
+      "handlesAlerts": true,
+      "javascriptEnabled": true,
+      "pageLoadStrategy": "normal",
+      "takesScreenshot": true
+   }
+}
+[1595198930,424][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "credentials_enable_service": false,
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "download": {
+      "default_directory": "/home/igor/IdeaProjects/StasAllureProject/build/downloads"
+   },
+   "plugins": {
+      "always_open_pdf_externally": true
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1595198930,424][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1595198930,424][INFO]: Launching chrome: /usr/bin/google-chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-blink-features=ShadowDOMV0 --enable-logging --ignore-certificate-errors --log-level=0 --no-first-run --password-store=basic --proxy-bypass-list=<-loopback> --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/tmp/.com.google.Chrome.ECGDkn data:,
+[1595198930,786][INFO]: resolved localhost to ["127.0.0.1"]
+[1595198930,797][INFO]: resolved localhost to ["127.0.0.1"]
+[1595198930,816][INFO]: [a22fee1f3e4973158c6c559a7b0f8540] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": true,
+      "browserName": "chrome",
+      "browserVersion": "84.0.4147.89",
+      "chrome": {
+         "chromedriverVersion": "84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310})",
+         "userDataDir": "/tmp/.com.google.Chrome.ECGDkn"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:46375"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "linux",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:virtualAuthenticators": true
+   },
+   "sessionId": "a22fee1f3e4973158c6c559a7b0f8540"
+}
+[1595198930,982][INFO]: [a22fee1f3e4973158c6c559a7b0f8540] COMMAND SetWindowRect {
+   "height": 768,
+   "width": 1366
+}
+[1595198930,982][INFO]: Waiting for pending navigations...
+[1595198930,986][INFO]: Done waiting for pending navigations. Status: ok
+[1595198931,089][INFO]: Waiting for pending navigations...
+[1595198931,090][INFO]: Done waiting for pending navigations. Status: ok
+[1595198931,090][INFO]: [a22fee1f3e4973158c6c559a7b0f8540] RESPONSE SetWindowRect {
+   "height": 768,
+   "width": 1366,
+   "x": 77,
+   "y": 37
+}
+[1595198931,098][INFO]: [a22fee1f3e4973158c6c559a7b0f8540] COMMAND Navigate {
+   "url": "https://www.google.com/"
+}
+[1595198931,098][INFO]: Waiting for pending navigations...
+[1595198931,099][INFO]: Done waiting for pending navigations. Status: ok
+[1595198931,277][INFO]: Waiting for pending navigations...
+[1595198931,793][INFO]: Done waiting for pending navigations. Status: ok
+[1595198931,793][INFO]: [a22fee1f3e4973158c6c559a7b0f8540] RESPONSE Navigate
+[1595198931,876][INFO]: [a22fee1f3e4973158c6c559a7b0f8540] COMMAND FindElement {
+   "using": "xpath",
+   "value": ".//a[text() = 'Почта']"
+}
+[1595198931,876][INFO]: Waiting for pending navigations...
+[1595198931,877][INFO]: Done waiting for pending navigations. Status: ok
+[1595198931,893][INFO]: Waiting for pending navigations...
+[1595198931,893][INFO]: Done waiting for pending navigations. Status: ok
+[1595198931,893][INFO]: [a22fee1f3e4973158c6c559a7b0f8540] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "88578f8b-6bbc-4d98-819c-36f0217be20a"
+}
+[1595198931,916][INFO]: [a22fee1f3e4973158c6c559a7b0f8540] COMMAND ExecuteScript {
+   "args": [ {
+      "element-6066-11e4-a52e-4f735466cecf": "88578f8b-6bbc-4d98-819c-36f0217be20a"
+   } ],
+   "script": "return (function(){return function(){var k=this;function l(a){return void 0!==a}function m(a){return\"string\"==typeof a}function aa(a,b){a=a.split(\".\");var c=k;a[0]in c||!c.execScript||c.execScript(..."
+}
+[1595198931,916][INFO]: Waiting for pending navigations...
+[1595198931,917][INFO]: Done waiting for pending navigations. Status: ok
+[1595198931,934][INFO]: Waiting for pending navigations...
+[1595198931,935][INFO]: Done waiting for pending navigations. Status: ok
+[1595198931,935][INFO]: [a22fee1f3e4973158c6c559a7b0f8540] RESPONSE ExecuteScript true
+[1595198931,942][INFO]: [a22fee1f3e4973158c6c559a7b0f8540] COMMAND ClickElement {
+   "id": "88578f8b-6bbc-4d98-819c-36f0217be20a"
+}
+[1595198931,942][INFO]: Waiting for pending navigations...
+[1595198931,943][INFO]: Done waiting for pending navigations. Status: ok
+[1595198931,994][INFO]: Waiting for pending navigations...
+[1595198932,835][INFO]: Done waiting for pending navigations. Status: ok
+[1595198932,835][INFO]: [a22fee1f3e4973158c6c559a7b0f8540] RESPONSE ClickElement
+[1595199432,892][INFO]: [a22fee1f3e4973158c6c559a7b0f8540] COMMAND Quit {
+
+}
+[1595199432,992][INFO]: [a22fee1f3e4973158c6c559a7b0f8540] RESPONSE Quit
